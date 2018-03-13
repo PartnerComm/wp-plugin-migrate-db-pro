@@ -4,10 +4,6 @@
   "version": "1.8.1",
   "description": "WP Migrate DB Pro",
   "type": "wordpress-plugin",
-  "dist": {
-    "type": "git",
-    "url": "https://github.com/PartnerComm/wp-plugin-migrate-db-pro"
-  },
   "authors": [
     {
       "name": "Partnercomm.net",
