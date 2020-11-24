@@ -13,7 +13,7 @@
 
 * Add this to the require section. Note, update the version to the latest release in the repo
 ```
-    "pcomm/dbmigratepro": "1.9.8"
+    "pcomm/dbmigratepro": "1.9.13"
 ```
 * Don't forget to separate these with commas
 
