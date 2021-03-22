@@ -2,6 +2,8 @@
 
 ## Using this plugin in a composer project
 
+## Current version: 1.9.14
+
 **For your project's composer.json file**
 * Add this to the respositories section
 ```
@@ -13,7 +15,7 @@
 
 * Add this to the require section. Note, update the version to the latest release in the repo
 ```
-    "pcomm/dbmigratepro": "1.9.13"
+    "pcomm/dbmigratepro": "1.9.*"
 ```
 * Don't forget to separate these with commas
 
