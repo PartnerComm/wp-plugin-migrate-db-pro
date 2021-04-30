@@ -2,7 +2,7 @@
 
 ## Using this plugin in a composer project
 
-## Current version: 2.0.0
+## Current version: 2.0.1
 
 **For your project's composer.json file**
 * Add this to the respositories section

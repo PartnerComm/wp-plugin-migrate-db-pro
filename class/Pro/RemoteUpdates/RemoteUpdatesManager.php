@@ -199,10 +199,12 @@ class RemoteUpdatesManager {
         }
         //if plugin data still empty, get the plugin data for the default base name
         if (empty($plugin_data)) {
-            $plugin_data = get_plugins($plugin_basename);
+            $plugin_data = get_plugins();
+            $plugin_data = isset($plugin_data[$plugin_basename]) ? $plugin_data[$plugin_basename] : [];
         }
+
         //set the plugin name
-        $plugin_name = reset($plugin_data)['Name'];
+        $plugin_name = isset($plugin_data['Name']) ? $plugin_data['Name'] : reset($plugin_data)['Name'];
 
         $result = false;
         //make sure there's a plugin to update

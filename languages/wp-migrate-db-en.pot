@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-migrate-db-pro\n"
 "Report-Msgid-Bugs-To: nom@deliciousbrains.com\n"
-"POT-Creation-Date: 2021-04-27 16:54-0400\n"
+"POT-Creation-Date: 2021-04-29 10:48-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -335,6 +335,7 @@ msgstr ""
 #: src/wp-migrate-db-pro/class/Common/UI/TemplateBase.php:84
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:221
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:490
+#: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:492
 msgctxt "Plugin configuration and preferences"
 msgid "Settings"
 msgstr ""
@@ -888,12 +889,19 @@ msgstr ""
 #: src/wp-migrate-db-pro/class/Common/Plugin/Menu.php:134
 #: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:350
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:568
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:360
+#: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:570
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:363
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:359
 msgid "Migrate DB Pro"
 msgstr ""
 
 #: src/wp-migrate-db-pro/class/Common/Plugin/Menu.php:95
 #: src/wp-migrate-db-pro/class/Common/Plugin/Menu.php:134
 #: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:350
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:360
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:363
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:359
 msgid "Migrate DB"
 msgstr ""
 
@@ -908,18 +916,27 @@ msgid ""
 msgstr ""
 
 #: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:240
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:250
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:253
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:249
 msgid ""
 "WP Migrate DB and WP Migrate DB Pro cannot both be active. We've "
 "automatically deactivated WP Migrate DB."
 msgstr ""
 
 #: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:242
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:252
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:255
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:251
 msgid ""
 "WP Migrate DB and WP Migrate DB Pro cannot both be active. We've "
 "automatically deactivated WP Migrate DB Pro."
 msgstr ""
 
 #: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:331
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:341
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:344
+#: src/wp-migrate-db-pro/class/Common/Plugin/PluginManagerBase.php:340
 msgid "AJAX request failed"
 msgstr ""
 
@@ -1207,15 +1224,19 @@ msgstr ""
 
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:228
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:531
+#: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:533
 msgid "Check my license again"
 msgstr ""
 
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:297
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:308
+#: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:299
+#: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:310
 msgid "Could not retrieve version details. Please try again."
 msgstr ""
 
 #: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:531
+#: src/wp-migrate-db-pro/class/Pro/Plugin/ProPluginManager.php:533
 msgid "A problem occurred when trying to check the license, please try again."
 msgstr ""
 
