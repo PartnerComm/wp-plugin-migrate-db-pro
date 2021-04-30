@@ -290,6 +290,8 @@ class ProPluginManager extends PluginManagerBase
             $plugin_slug = 'wp-migrate-db-pro-media-files';
         } elseif ('wp-migrate-db-pro-multisite-tools' === $_GET['plugin']) {
             $plugin_slug = 'wp-migrate-db-pro-multisite-tools';
+        } elseif ('wp-migrate-db-pro-theme-plugin-files' === $_GET['plugin']) {
+            $plugin_slug = 'wp-migrate-db-pro-theme-plugin-files';
         } else {
             return;
         }
