@@ -2,10 +2,11 @@
 
 ## Using this plugin in a composer project
 
-## Current version: 2.0.1
+## Current version: 2.2.2
+Changelog: [https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/](https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/)
 
 **For your project's composer.json file**
-* Add this to the respositories section
+* Add this to the repositories section
 ```
     {
       "type": "vcs",
@@ -15,9 +16,9 @@
 
 * Add this to the require section. Note, update the version to the latest release in the repo
 ```
-    "pcomm/dbmigratepro": "2.0.*"
+    "pcomm/dbmigratepro": "2.2.*"
 ```
-* Don't forget to separate these with commas
+* Don't forget to separate lines with commas
 
 ## Updating this plugin
 * Log in to our account on [deliciousbrains.com](https://deliciousbrains.com/)
