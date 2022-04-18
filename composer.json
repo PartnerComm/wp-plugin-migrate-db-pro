@@ -1,7 +1,7 @@
 
 {
   "name": "pcomm/wp-migrate-db-pro",
-  "version": "2.2.2",
+  "version": "2.3.2",
   "description": "WP Migrate DB Pro",
   "type": "wordpress-plugin",
   "authors": [

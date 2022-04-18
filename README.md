@@ -2,7 +2,7 @@
 
 ## Using this plugin in a composer project
 
-## Current version: 2.2.2
+## Current version: 2.3.2
 Changelog: [https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/](https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/)
 
 **For your project's composer.json file**
@@ -16,7 +16,7 @@ Changelog: [https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/](https:
 
 * Add this to the require section. Note, update the version to the latest release in the repo
 ```
-    "pcomm/dbmigratepro": "2.2.*"
+    "pcomm/wp-migrate-db-pro": "2.3.*"
 ```
 * Don't forget to separate lines with commas
 
