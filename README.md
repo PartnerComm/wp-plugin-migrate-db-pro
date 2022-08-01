@@ -2,9 +2,6 @@
 
 ## Using this plugin in a composer project
 
-## Current version: 2.3.2
-Changelog: [https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/](https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/)
-
 **For your project's composer.json file**
 * Add this to the repositories section
 ```
@@ -27,3 +24,13 @@ Changelog: [https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/](https:
 * Clone this repo if you don't have it locally
 * Update the files in the repo with the newly downloaded files
 * Commit the updates, tag it with the current plugin version number and push your changes up
+
+## Changelog
+### 2.3.3 - May 19, 2022
+- Bug fix: WP Migrate no longer initializes on pages outside of WP Admin in order to improve front-end performance
+- Bug fix: Pulling themes or plugins without the database now works on the first attempt
+- Bug fix: Migrations without the database are now compatible with PHP 8 or above
+- Bug fix: Network-to-network migrations via the CLI now process without warnings
+- Bug fix: Compatibility mode path now uses the proper case to avoid errors with case-sensitive file systems
+### 2.3.2
+Changelog: [https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/](https://deliciousbrains.com/wp-migrate-db-pro/doc/changelog/)
