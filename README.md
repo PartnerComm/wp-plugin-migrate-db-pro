@@ -26,6 +26,13 @@
 * Commit the updates, tag it with the current plugin version number and push your changes up
 
 ## Changelog
+### 2.4.1 - Oct 12, 2022
+- Improvement: All log files, backup and cache directories contained in the uploads directory are now excluded by default
+- Bug fix: Push and pull migrations involving WP Engine can now be repeated without reloading the profile
+- Bug fix: Missing mu-plugins directory no longer causes a fatal error
+- Bug fix: Database imports are now more compatible with PHP 8 and above
+- Bug fix: Find and replace via CLI is now more compatible with PHP 8 and above
+- Bug fix: Push and pull migrations via CLI no longer show PHP notices and warnings
 ### 2.3.3 - May 19, 2022
 - Bug fix: WP Migrate no longer initializes on pages outside of WP Admin in order to improve front-end performance
 - Bug fix: Pulling themes or plugins without the database now works on the first attempt
