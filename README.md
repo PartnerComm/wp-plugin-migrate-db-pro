@@ -26,6 +26,11 @@
 * Commit the updates, tag it with the current plugin version number and push your changes up
 
 ## Changelog
+
+### 2.4.2 - Oct 21, 2022
+- Bug fix: Limited file permissions outside of the uploads directory no longer prevent find and replace operations on hosts like Pantheon
+- Bug fix: Excluded file defaults for caches and backups are now limited to directories
+- Bug fix: Empty custom pairs are no longer processed during find and replace operations
 ### 2.4.1 - Oct 12, 2022
 - Improvement: All log files, backup and cache directories contained in the uploads directory are now excluded by default
 - Bug fix: Push and pull migrations involving WP Engine can now be repeated without reloading the profile
