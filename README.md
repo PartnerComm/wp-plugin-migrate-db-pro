@@ -27,6 +27,10 @@
 
 ## Changelog
 
+### 2.6.10 - Aug 29, 2023
+- New: Links to plugin documentation, support, feedback, and changelog are now available in the footer of WP Admin
+- Improvement: Migration performance is now improved for sites that do not organize uploads into month- and year-based folders
+- Bug fix: Form data types are now consistent when using default fallbacks
 ### 2.4.2 - Oct 21, 2022
 - Bug fix: Limited file permissions outside of the uploads directory no longer prevent find and replace operations on hosts like Pantheon
 - Bug fix: Excluded file defaults for caches and backups are now limited to directories
