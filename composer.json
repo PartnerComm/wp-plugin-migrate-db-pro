@@ -1,13 +1,13 @@
 
 {
   "name": "pcomm/wp-migrate-db-pro",
-  "version": "2.4.2",
+  "version": "2.6.10",
   "description": "WP Migrate DB Pro",
   "type": "wordpress-plugin",
   "authors": [
     {
       "name": "Partnercomm.net",
-      "email": "code@partnercomm.net"
+      "email": "wpadmin@partnercomm.net"
     }
   ],
   "require": {}
